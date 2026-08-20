@@ -1,0 +1,3750 @@
+{
+  "xoms": [
+    {
+      "id": 1,
+      "tenXom": "Xóm Tuy Định",
+      "moTa": "Địa bàn Tuy Định",
+      "ThuTuSapXep": 1
+    },
+    {
+      "id": 2,
+      "tenXom": "Xóm Tây Cường",
+      "moTa": "Địa bàn Tây Cường",
+      "ThuTuSapXep": 2
+    },
+    {
+      "id": 3,
+      "tenXom": "Xóm Thanh Giản",
+      "moTa": "Địa bàn Thanh Giản",
+      "ThuTuSapXep": 3
+    },
+    {
+      "id": 4,
+      "tenXom": "Xóm Đông Hải",
+      "moTa": "Địa bàn Đông Hải",
+      "ThuTuSapXep": 4
+    },
+    {
+      "id": 5,
+      "tenXom": "Xóm Hoa Lộc",
+      "moTa": "Địa bàn Hoa Lộc",
+      "ThuTuSapXep": 5
+    },
+    {
+      "id": 6,
+      "tenXom": "Xóm Đông Thổ",
+      "moTa": "Địa bàn Đông Thổ",
+      "ThuTuSapXep": 6
+    },
+    {
+      "id": 7,
+      "tenXom": "Xóm Văn Hải",
+      "moTa": "Địa bàn Văn Hải",
+      "ThuTuSapXep": 7
+    },
+    {
+      "id": 8,
+      "tenXom": "Xóm Tân Vinh",
+      "moTa": "Địa bàn Tân Vinh",
+      "ThuTuSapXep": 8
+    },
+    {
+      "id": 9,
+      "tenXom": "Xóm Đông Yên",
+      "moTa": "Địa bàn Đông Yên",
+      "ThuTuSapXep": 9
+    },
+    {
+      "id": 10,
+      "tenXom": "Xóm Kim Tân",
+      "moTa": "Địa bàn Kim Tân",
+      "ThuTuSapXep": 10
+    },
+    {
+      "id": 11,
+      "tenXom": "Khác",
+      "moTa": "Khu vực khác chưa phân loại",
+      "ThuTuSapXep": 11
+    }
+  ],
+  "nhomHangs": [
+    {
+      "id": 1,
+      "tenNhom": "Phân bón",
+      "maNhomVietTat": "PB"
+    },
+    {
+      "id": 2,
+      "tenNhom": "Thuốc bảo vệ thực vật",
+      "maNhomVietTat": "TB"
+    },
+    {
+      "id": 3,
+      "tenNhom": "Hạt giống",
+      "maNhomVietTat": "HG"
+    },
+    {
+      "id": 4,
+      "tenNhom": "Dụng cụ nông nghiệp",
+      "maNhomVietTat": "DC"
+    }
+  ],
+  "donViTinhs": [
+    {
+      "id": 1,
+      "tenDonVi": "Chai"
+    },
+    {
+      "id": 2,
+      "tenDonVi": "Gói"
+    },
+    {
+      "id": 3,
+      "tenDonVi": "Bao"
+    },
+    {
+      "id": 4,
+      "tenDonVi": "Kg"
+    },
+    {
+      "id": 5,
+      "tenDonVi": "Cán"
+    },
+    {
+      "id": 6,
+      "tenDonVi": "Viên"
+    }
+  ],
+  "congDungs": [
+    {
+      "id": 1,
+      "tenCongDung": "Trừ sâu"
+    },
+    {
+      "id": 2,
+      "tenCongDung": "Trừ bệnh"
+    },
+    {
+      "id": 3,
+      "tenCongDung": "Trừ cỏ"
+    },
+    {
+      "id": 4,
+      "tenCongDung": "Kích rễ"
+    },
+    {
+      "id": 5,
+      "tenCongDung": "Dưỡng lá"
+    },
+    {
+      "id": 6,
+      "tenCongDung": "Ra hoa"
+    },
+    {
+      "id": 7,
+      "tenCongDung": "Đậu quả"
+    },
+    {
+      "id": 8,
+      "tenCongDung": "Diệt ốc"
+    },
+    {
+      "id": 9,
+      "tenCongDung": "Vi sinh"
+    }
+  ],
+  "cayTrongs": [
+    {
+      "id": 1,
+      "tenCayTrong": "Lúa"
+    },
+    {
+      "id": 2,
+      "tenCayTrong": "Ngô"
+    },
+    {
+      "id": 3,
+      "tenCayTrong": "Khoai"
+    },
+    {
+      "id": 4,
+      "tenCayTrong": "Lạc"
+    },
+    {
+      "id": 5,
+      "tenCayTrong": "Rau màu"
+    },
+    {
+      "id": 6,
+      "tenCayTrong": "Cây ăn quả"
+    },
+    {
+      "id": 7,
+      "tenCayTrong": "Cây có múi"
+    },
+    {
+      "id": 8,
+      "tenCayTrong": "Dưa"
+    }
+  ],
+  "benhSauHais": [
+    {
+      "id": 1,
+      "tenBenhSau": "Đạo ôn"
+    },
+    {
+      "id": 2,
+      "tenBenhSau": "Khô vằn"
+    },
+    {
+      "id": 3,
+      "tenBenhSau": "Rầy nâu"
+    },
+    {
+      "id": 4,
+      "tenBenhSau": "Sâu cuốn lá"
+    },
+    {
+      "id": 5,
+      "tenBenhSau": "Bạc lá"
+    },
+    {
+      "id": 6,
+      "tenBenhSau": "Ốc bươu vàng"
+    },
+    {
+      "id": 7,
+      "tenBenhSau": "Sâu tơ"
+    },
+    {
+      "id": 8,
+      "tenBenhSau": "Cỏ lồng vực"
+    }
+  ],
+  "nhaSanXuats": [
+    {
+      "id": 1,
+      "tenNhaSanXuat": "Syngenta Việt Nam",
+      "quocGia": "Thụy Sỹ"
+    },
+    {
+      "id": 2,
+      "tenNhaSanXuat": "Lộc Trời Group",
+      "quocGia": "Việt Nam"
+    },
+    {
+      "id": 3,
+      "tenNhaSanXuat": "Bayer CropScience",
+      "quocGia": "Đức"
+    },
+    {
+      "id": 4,
+      "tenNhaSanXuat": "Phân bón Bình Điền",
+      "quocGia": "Việt Nam"
+    }
+  ],
+  "nhaCungCaps": [
+    {
+      "id": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "nguoiLienHe": "Nguyễn Văn Hùng",
+      "dienThoai": "0912345678",
+      "email": "hung@tongkhonongnghiep.com",
+      "diaChi": "TP. Hải Phòng",
+      "soTaiKhoanNganHang": "VCB 1023948572",
+      "maSoThue": "0102938475",
+      "zalo": "0912345678",
+      "facebook": "https://facebook.com/tongkhosimienbac",
+      "maNhaCungCap": "NCC000001",
+      "trangThaiHoatDong": "HoatDong"
+    },
+    {
+      "id": 2,
+      "tenNhaCungCap": "Đại lý phân phối Lộc Trời chi nhánh tỉnh",
+      "nguoiLienHe": "Trần Thị Lan",
+      "dienThoai": "0988776655",
+      "email": "lan.tran@loctroi.vn",
+      "diaChi": "TP. Thái Bình",
+      "soTaiKhoanNganHang": "CTG 2200192847",
+      "maSoThue": "0293847510",
+      "zalo": "0988776655",
+      "facebook": "https://facebook.com/loctroithaibinh",
+      "maNhaCungCap": "NCC000002",
+      "trangThaiHoatDong": "HoatDong"
+    }
+  ],
+  "hangHoas": [
+    {
+      "id": 1,
+      "maHangHoa": "TB000001",
+      "nhomHangId": 2,
+      "donViTinhId": 1,
+      "nhaSanXuatId": 1,
+      "tenTrenBaoBi": "Anvil 5SC",
+      "tenThuongGoi": "Thuốc trừ bệnh Anvil đầu trâu",
+      "hoatChat": "Hexaconazole",
+      "hamLuong": "50g/L",
+      "quyCach": "Chai 100ml",
+      "lieuLuong": "20ml/binh 16L",
+      "thoiGianCachLy": 7,
+      "giaNhapHienTai": 100000,
+      "giaBanHienTai": 85000,
+      "qrNoiBo": "QR_PROD_1",
+      "congDungIds": [
+        2
+      ],
+      "cayTrongIds": [
+        1,
+        2
+      ],
+      "benhSauIds": [
+        1,
+        2
+      ],
+      "tonToiThieu": 10,
+      "nguongCanhBaoHSD": 30,
+      "NgayCapNhat": "2026-08-20T17:23:07.789Z"
+    },
+    {
+      "id": 2,
+      "maHangHoa": "TB000002",
+      "nhomHangId": 2,
+      "donViTinhId": 1,
+      "nhaSanXuatId": 1,
+      "tenTrenBaoBi": "Amistar Top 325SC",
+      "tenThuongGoi": "Thuốc trừ nấm Amistar Top",
+      "hoatChat": "Azoxystrobin + Difenoconazole",
+      "hamLuong": "325g/L",
+      "quyCach": "Chai 250ml",
+      "lieuLuong": "15ml/binh 16L",
+      "thoiGianCachLy": 14,
+      "giaNhapHienTai": 260000,
+      "giaBanHienTai": 285000,
+      "qrNoiBo": "QR_PROD_2",
+      "congDungIds": [
+        2
+      ],
+      "cayTrongIds": [
+        1,
+        5,
+        6
+      ],
+      "benhSauIds": [
+        1,
+        2,
+        5
+      ],
+      "tonToiThieu": 10,
+      "nguongCanhBaoHSD": 30
+    },
+    {
+      "id": 3,
+      "maHangHoa": "PB000001",
+      "nhomHangId": 1,
+      "donViTinhId": 3,
+      "nhaSanXuatId": 4,
+      "tenTrenBaoBi": "NPK Đầu Trâu 13-13-13 TE",
+      "tenThuongGoi": "Phân bón NPK bón thúc Đầu Trâu",
+      "hoatChat": "N:13%, P2O5:13%, K2O:13%",
+      "hamLuong": "N-P-K cân đối",
+      "quyCach": "Bao 50kg",
+      "lieuLuong": "20-30kg/sào",
+      "thoiGianCachLy": 0,
+      "giaNhapHienTai": 680000,
+      "giaBanHienTai": 720000,
+      "qrNoiBo": "QR_PROD_3",
+      "congDungIds": [
+        4,
+        5,
+        6
+      ],
+      "cayTrongIds": [
+        1,
+        2,
+        6
+      ],
+      "benhSauIds": [],
+      "tonToiThieu": 10,
+      "nguongCanhBaoHSD": 30
+    }
+  ],
+  "anhHangHoas": [
+    {
+      "id": 1,
+      "hangHoaId": 1,
+      "loaiAnh": "MatTruoc",
+      "duongDanFile": "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&q=80&w=300",
+      "noiDungOCR": "ANVIL 5SC HEXACONAZOLE 50g/L CHAI 100ML SYNGENTA",
+      "moHinhAI": "Gemini-3.6-flash",
+      "doTinCay": 98.5,
+      "daXuLy": true
+    }
+  ],
+  "giaHangHoas": [
+    {
+      "id": 1,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-07-20T08:00:00",
+      "giaNhap": 74000,
+      "giaBan": 84000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 2,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-07-27T10:00:00",
+      "giaNhap": 75000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 3,
+      "hangHoaId": 2,
+      "ngayCapNhat": "2026-07-25T14:00:00",
+      "giaNhap": 260000,
+      "giaBan": 285000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 4,
+      "hangHoaId": 3,
+      "ngayCapNhat": "2026-07-26T09:00:00",
+      "giaNhap": 680000,
+      "giaBan": 720000,
+      "nhaCungCapId": 2
+    },
+    {
+      "id": 5,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:22:47.948Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 6,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:22:47.959Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 7,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:22:47.962Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 8,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:22:47.971Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 9,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:23:07.760Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 10,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:23:07.773Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 11,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:23:07.777Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    },
+    {
+      "id": 12,
+      "hangHoaId": 1,
+      "ngayCapNhat": "2026-08-20T17:23:07.789Z",
+      "giaNhap": 100000,
+      "giaBan": 85000,
+      "nhaCungCapId": 1
+    }
+  ],
+  "khachHangs": [
+    {
+      "id": 1,
+      "hoTen": "Nguyễn Văn An",
+      "dienThoai": "0912111222",
+      "diaChi": "Xóm Tuy Định, xã Đông Cường",
+      "xomId": 1,
+      "ngaySinh": "1972-05-12",
+      "ngheNghiep": "Trồng lúa nước",
+      "dienTichCanhTac": 6.5,
+      "loaiCayTrongId": 1,
+      "ghiChu": "Thường mua nợ gối vụ lúa. Khách sỉ quen."
+    },
+    {
+      "id": 2,
+      "hoTen": "Trần Văn Cường",
+      "dienThoai": "0983444555",
+      "diaChi": "Xóm Tây Cường",
+      "xomId": 2,
+      "ngaySinh": "1980-08-22",
+      "ngheNghiep": "Trồng cam bưởi",
+      "dienTichCanhTac": 2,
+      "loaiCayTrongId": 7,
+      "ghiChu": "Mua bón thúc bưởi diện tích lớn, trả sòng phẳng."
+    },
+    {
+      "id": 3,
+      "hoTen": "Phạm Thị Lan",
+      "dienThoai": "0976333222",
+      "diaChi": "Xóm Hoa Lộc",
+      "xomId": 5,
+      "ngaySinh": "1985-03-15",
+      "ngheNghiep": "Trồng rau sạch",
+      "dienTichCanhTac": 1.2,
+      "loaiCayTrongId": 5,
+      "ghiChu": "Hay hỏi mua phân bón hữu cơ, thuốc sinh học."
+    }
+  ],
+  "phieuNhaps": [
+    {
+      "id": 1,
+      "maPhieuNhap": "PN000001",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-07-26T10:00:00",
+      "tongTien": 15400000,
+      "daThanhToan": 10000000,
+      "ghiChu": "Nhập đợt hàng chuẩn bị vụ gieo cấy lúa mùa.",
+      "trangThaiThanhToan": "ThanhToanMotPhan"
+    },
+    {
+      "id": 2,
+      "maPhieuNhap": "PN202608200001",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:26.537Z",
+      "tongTien": 1000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "Nhap",
+      "khoNhap": "Kho chính",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "Nhap",
+          "thoiGian": "2026-08-20T17:22:26.537Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:26.537Z",
+      "NgayCapNhat": "2026-08-20T17:22:26.537Z"
+    },
+    {
+      "id": 3,
+      "maPhieuNhap": "PN202608200002",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:26.542Z",
+      "tongTien": 1500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "ChoXacNhan",
+      "khoNhap": "Kho chính",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "ChoXacNhan",
+          "thoiGian": "2026-08-20T17:22:26.542Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:26.542Z",
+      "NgayCapNhat": "2026-08-20T17:22:26.542Z"
+    },
+    {
+      "id": 4,
+      "maPhieuNhap": "PN202608200003",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.938Z",
+      "tongTien": 1000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "Nhap",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "Nhap",
+          "thoiGian": "2026-08-20T17:22:47.938Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.938Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.938Z"
+    },
+    {
+      "id": 5,
+      "maPhieuNhap": "PN202608200004",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.943Z",
+      "tongTien": 1500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "ChoXacNhan",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "ChoXacNhan",
+          "thoiGian": "2026-08-20T17:22:47.943Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.943Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.943Z"
+    },
+    {
+      "id": 6,
+      "maPhieuNhap": "PN202608200005",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.948Z",
+      "tongTien": 2000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.948Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.948Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.948Z",
+      "documentHash": "b8b6ffd97ecb8f41808db2d6039ecb052c6013c1527cb34f49acaa7c91305156"
+    },
+    {
+      "id": 7,
+      "maPhieuNhap": "PN202608200006",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.959Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.959Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.959Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.959Z",
+      "documentHash": "27fc17289f2176d04eae1afe4ed551728ebc13bd93d4733280bbfe35da8c5699"
+    },
+    {
+      "id": 8,
+      "maPhieuNhap": "PN202608200007",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.962Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.962Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.962Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.962Z",
+      "documentHash": "52d065fb55bb4c8f025bde1be4560d73cef7b27f90151c82daefebb40ea3add3"
+    },
+    {
+      "id": 9,
+      "maPhieuNhap": "PN202608200008",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.971Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.971Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.971Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.971Z",
+      "documentHash": "9821106c28ddd0cdb73db5c75280a8ec13d089b157ea8e494c934405f6462683"
+    },
+    {
+      "id": 10,
+      "maPhieuNhap": "PN202608200009",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.746Z",
+      "tongTien": 1000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "Nhap",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "Nhap",
+          "thoiGian": "2026-08-20T17:23:07.746Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.746Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.746Z"
+    },
+    {
+      "id": 11,
+      "maPhieuNhap": "PN202608200010",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.754Z",
+      "tongTien": 1500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "ChoXacNhan",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "ChoXacNhan",
+          "thoiGian": "2026-08-20T17:23:07.754Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.754Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.754Z"
+    },
+    {
+      "id": 12,
+      "maPhieuNhap": "PN202608200011",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.759Z",
+      "tongTien": 2000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.760Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.759Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.759Z",
+      "documentHash": "d652eedfef7a953bef857e20a45c7c9aed711ba696b14f5682504eedf8b85020"
+    },
+    {
+      "id": 13,
+      "maPhieuNhap": "PN202608200012",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.773Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.773Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.773Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.773Z",
+      "documentHash": "2ee964b72418adf094285e18cbe9c87a4ad3ae6535788f0570d9b34b55a158a3"
+    },
+    {
+      "id": 14,
+      "maPhieuNhap": "PN202608200013",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.777Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.777Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.777Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.777Z",
+      "documentHash": "62ebe08c586c4e56c0f4bc9ed500996b6ba7de37ae7231207a77fdf9d96781fd"
+    },
+    {
+      "id": 15,
+      "maPhieuNhap": "PN202608200014",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.789Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.789Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.789Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.789Z",
+      "documentHash": "550ade7b675df167e3ad2b95115c8e00656b775fc674f6bd7ea4b7ebd8cc1f93"
+    }
+  ],
+  "chiTietPhieuNhaps": [
+    {
+      "id": 1,
+      "phieuNhapId": 1,
+      "hangHoaId": 1,
+      "soLuong": 100,
+      "donGia": 75000,
+      "chietKhau": 0
+    },
+    {
+      "id": 2,
+      "phieuNhapId": 1,
+      "hangHoaId": 3,
+      "soLuong": 10,
+      "donGia": 680000,
+      "chietKhau": 0
+    },
+    {
+      "id": 3,
+      "phieuNhapId": 2,
+      "hangHoaId": 1,
+      "soLuong": 10,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 1000000,
+      "maLo": "TEST-DRAFT-01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-DRAFT-01",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 4,
+      "phieuNhapId": 3,
+      "hangHoaId": 1,
+      "soLuong": 15,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 1500000,
+      "maLo": "TEST-PEND-01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-PEND-01",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 5,
+      "phieuNhapId": 4,
+      "hangHoaId": 1,
+      "soLuong": 10,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 1000000,
+      "maLo": "TEST-DRAFT-01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-DRAFT-01",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 6,
+      "phieuNhapId": 5,
+      "hangHoaId": 1,
+      "soLuong": 15,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 1500000,
+      "maLo": "TEST-PEND-01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-PEND-01",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 7,
+      "phieuNhapId": 6,
+      "hangHoaId": 1,
+      "soLuong": 20,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 2000000,
+      "maLo": "TEST-COMP-1787221367947",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-COMP-1787221367947",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 8,
+      "phieuNhapId": 7,
+      "hangHoaId": 1,
+      "soLuong": 5,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 500000,
+      "maLo": "BATCH-ALPHA-1787221367957",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2026-11-01",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "BATCH-ALPHA-1787221367957",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 9,
+      "phieuNhapId": 8,
+      "hangHoaId": 1,
+      "soLuong": 5,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 500000,
+      "maLo": "BATCH-BETA-1787221367957",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-05-01",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "BATCH-BETA-1787221367957",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 10,
+      "phieuNhapId": 9,
+      "hangHoaId": 1,
+      "soLuong": 5,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 500000,
+      "maLo": "BATCH-EXPIRED-1787221367970",
+      "ngaySanXuat": "2019-01-01",
+      "hanSuDung": "2020-01-01",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "BATCH-EXPIRED-1787221367970",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 11,
+      "phieuNhapId": 10,
+      "hangHoaId": 1,
+      "soLuong": 10,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 1000000,
+      "maLo": "TEST-DRAFT-01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-DRAFT-01",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 12,
+      "phieuNhapId": 11,
+      "hangHoaId": 1,
+      "soLuong": 15,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 1500000,
+      "maLo": "TEST-PEND-01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-PEND-01",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 13,
+      "phieuNhapId": 12,
+      "hangHoaId": 1,
+      "soLuong": 20,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 2000000,
+      "maLo": "TEST-COMP-1787221387758",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "TEST-COMP-1787221387758",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 14,
+      "phieuNhapId": 13,
+      "hangHoaId": 1,
+      "soLuong": 5,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 500000,
+      "maLo": "BATCH-ALPHA-1787221387771",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2026-11-01",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "BATCH-ALPHA-1787221387771",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 15,
+      "phieuNhapId": 14,
+      "hangHoaId": 1,
+      "soLuong": 5,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 500000,
+      "maLo": "BATCH-BETA-1787221387771",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-05-01",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "BATCH-BETA-1787221387771",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    },
+    {
+      "id": 16,
+      "phieuNhapId": 15,
+      "hangHoaId": 1,
+      "soLuong": 5,
+      "donGia": 100000,
+      "chietKhauLoai": "đ",
+      "chietKhauGiaTri": 0,
+      "chietKhau": 0,
+      "thueSuatVAT": "0%",
+      "tienThueVAT": 0,
+      "thanhTien": 500000,
+      "maLo": "BATCH-EXPIRED-1787221387787",
+      "ngaySanXuat": "2019-01-01",
+      "hanSuDung": "2020-01-01",
+      "lyDoThayDoiGia": "",
+      "snapshot": {
+        "giaNhap": 100000,
+        "chietKhau": 0,
+        "thue": 0,
+        "thueSuatVAT": "0%",
+        "donViTinh": "Chai",
+        "nhaCungCapId": 1,
+        "maLo": "BATCH-EXPIRED-1787221387787",
+        "maHangHoa": "TB000001",
+        "tenTrenBaoBi": "Anvil 5SC",
+        "quyCach": "Chai 100ml",
+        "hoatChat": "Hexaconazole",
+        "hamLuong": "50g/L",
+        "nhaSanXuat": "Syngenta Việt Nam"
+      }
+    }
+  ],
+  "hoaDonBans": [
+    {
+      "id": 1,
+      "maHoaDon": "HD000001",
+      "khachHangId": 1,
+      "ngayBan": "2026-07-27T08:30:00",
+      "tongTien": 850000,
+      "giamGia": 10000,
+      "khachTra": 200000,
+      "ghiChu": "Ông An mua nợ gối vụ 10 chai Anvil."
+    },
+    {
+      "id": 2,
+      "maHoaDon": "HD202608200001",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:22:02.268Z",
+      "tongTien": 450000,
+      "giamGia": 0,
+      "khachTra": 450000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:22:02.268Z",
+      "NgayCapNhat": "2026-08-20T17:22:02.268Z"
+    },
+    {
+      "id": 3,
+      "maHoaDon": "HD202608200002",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:22:02.290Z",
+      "tongTien": 300000,
+      "giamGia": 0,
+      "khachTra": 300000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:22:02.290Z",
+      "NgayCapNhat": "2026-08-20T17:22:02.290Z"
+    },
+    {
+      "id": 4,
+      "maHoaDon": "HD202608200003",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:22:26.584Z",
+      "tongTien": 450000,
+      "giamGia": 0,
+      "khachTra": 450000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:22:26.584Z",
+      "NgayCapNhat": "2026-08-20T17:22:26.584Z"
+    },
+    {
+      "id": 5,
+      "maHoaDon": "HD202608200004",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:22:26.590Z",
+      "tongTien": 300000,
+      "giamGia": 0,
+      "khachTra": 300000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:22:26.590Z",
+      "NgayCapNhat": "2026-08-20T17:22:26.590Z"
+    },
+    {
+      "id": 6,
+      "maHoaDon": "HD202608200005",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:22:47.967Z",
+      "tongTien": 450000,
+      "giamGia": 0,
+      "khachTra": 450000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:22:47.967Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.967Z"
+    },
+    {
+      "id": 7,
+      "maHoaDon": "HD202608200006",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:22:47.975Z",
+      "tongTien": 300000,
+      "giamGia": 0,
+      "khachTra": 300000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:22:47.975Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.975Z"
+    },
+    {
+      "id": 8,
+      "maHoaDon": "HD202608200007",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:23:07.783Z",
+      "tongTien": 450000,
+      "giamGia": 0,
+      "khachTra": 450000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:23:07.783Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.783Z"
+    },
+    {
+      "id": 9,
+      "maHoaDon": "HD202608200008",
+      "khachHangId": 1,
+      "ngayBan": "2026-08-20T17:23:07.794Z",
+      "tongTien": 300000,
+      "giamGia": 0,
+      "khachTra": 300000,
+      "ghiChu": "",
+      "NgayTao": "2026-08-20T17:23:07.794Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.794Z"
+    }
+  ],
+  "chiTietHoaDonBans": [
+    {
+      "id": 1,
+      "hoaDonBanId": 1,
+      "hangHoaId": 1,
+      "soLuong": 10,
+      "donGia": 85000
+    },
+    {
+      "id": 2,
+      "hoaDonBanId": 2,
+      "hangHoaId": 1,
+      "soLuong": 3,
+      "donGia": 150000
+    },
+    {
+      "id": 3,
+      "hoaDonBanId": 3,
+      "hangHoaId": 1,
+      "soLuong": 2,
+      "donGia": 150000
+    },
+    {
+      "id": 4,
+      "hoaDonBanId": 4,
+      "hangHoaId": 1,
+      "soLuong": 3,
+      "donGia": 150000
+    },
+    {
+      "id": 5,
+      "hoaDonBanId": 5,
+      "hangHoaId": 1,
+      "soLuong": 2,
+      "donGia": 150000
+    },
+    {
+      "id": 6,
+      "hoaDonBanId": 6,
+      "hangHoaId": 1,
+      "soLuong": 3,
+      "donGia": 150000
+    },
+    {
+      "id": 7,
+      "hoaDonBanId": 7,
+      "hangHoaId": 1,
+      "soLuong": 2,
+      "donGia": 150000
+    },
+    {
+      "id": 8,
+      "hoaDonBanId": 8,
+      "hangHoaId": 1,
+      "soLuong": 3,
+      "donGia": 150000
+    },
+    {
+      "id": 9,
+      "hoaDonBanId": 9,
+      "hangHoaId": 1,
+      "soLuong": 2,
+      "donGia": 150000
+    }
+  ],
+  "tonKhos": {
+    "1": 160,
+    "2": 25,
+    "3": 10
+  },
+  "lichSuTonKhos": [
+    {
+      "id": 1,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-07-26T10:05:00",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN000001",
+      "soLuongThayDoi": 100,
+      "ghiChu": "Nhập kho sỉ"
+    },
+    {
+      "id": 2,
+      "hangHoaId": 3,
+      "ngayPhatSinh": "2026-07-26T10:05:00",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN000001",
+      "soLuongThayDoi": 10,
+      "ghiChu": "Nhập kho sỉ"
+    },
+    {
+      "id": 3,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-07-27T08:30:00",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD000001",
+      "soLuongThayDoi": -10,
+      "ghiChu": "Bán lẻ cho ông Nguyễn Văn An"
+    },
+    {
+      "id": 4,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:02.268Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200001",
+      "khoTruoc": 90,
+      "khoSau": 87,
+      "soLuongThayDoi": -3,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200001 [FEFO: Lô ANVIL-L01 (HSD: 2027-06-30) - giảm 3]"
+    },
+    {
+      "id": 5,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:02.290Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200002",
+      "khoTruoc": 87,
+      "khoSau": 85,
+      "soLuongThayDoi": -2,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200002 [FEFO: Lô ANVIL-L01 (HSD: 2027-06-30) - giảm 2]"
+    },
+    {
+      "id": 6,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:26.584Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200003",
+      "khoTruoc": 85,
+      "khoSau": 82,
+      "soLuongThayDoi": -3,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200003 [FEFO: Lô ANVIL-L01 (HSD: 2027-06-30) - giảm 3]"
+    },
+    {
+      "id": 7,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:26.590Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200004",
+      "khoTruoc": 82,
+      "khoSau": 80,
+      "soLuongThayDoi": -2,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200004 [FEFO: Lô ANVIL-L01 (HSD: 2027-06-30) - giảm 2]"
+    },
+    {
+      "id": 8,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:47.948Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200005",
+      "khoTruoc": 80,
+      "khoSau": 100,
+      "soLuongThayDoi": 20,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200005 [Lô: TEST-COMP-1787221367947, HSD: 2027-12-31]"
+    },
+    {
+      "id": 9,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:47.959Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200006",
+      "khoTruoc": 100,
+      "khoSau": 105,
+      "soLuongThayDoi": 5,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200006 [Lô: BATCH-ALPHA-1787221367957, HSD: 2026-11-01]"
+    },
+    {
+      "id": 10,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:47.962Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200007",
+      "khoTruoc": 105,
+      "khoSau": 110,
+      "soLuongThayDoi": 5,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200007 [Lô: BATCH-BETA-1787221367957, HSD: 2027-05-01]"
+    },
+    {
+      "id": 11,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:47.967Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200005",
+      "khoTruoc": 110,
+      "khoSau": 107,
+      "soLuongThayDoi": -3,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200005 [FEFO: Lô BATCH-ALPHA-1787221367957 (HSD: 2026-11-01) - giảm 3]"
+    },
+    {
+      "id": 12,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:47.971Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200008",
+      "khoTruoc": 107,
+      "khoSau": 112,
+      "soLuongThayDoi": 5,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200008 [Lô: BATCH-EXPIRED-1787221367970, HSD: 2020-01-01]"
+    },
+    {
+      "id": 13,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:47.975Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200006",
+      "khoTruoc": 112,
+      "khoSau": 110,
+      "soLuongThayDoi": -2,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200006 [FEFO: Lô BATCH-ALPHA-1787221367957 (HSD: 2026-11-01) - giảm 2]"
+    },
+    {
+      "id": 14,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:22:58.355Z",
+      "loaiGiaoDich": "KiemKe",
+      "thamChieuId": "PKK202608200005",
+      "khoTruoc": 110,
+      "khoSau": 120,
+      "soLuongThayDoi": 10,
+      "nguoiThucHien": "Chủ đại lý",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Điều chỉnh khớp lệch kiểm kê PKK202608200005 (Lệch: +10)"
+    },
+    {
+      "id": 15,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.760Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200011",
+      "khoTruoc": 120,
+      "khoSau": 140,
+      "soLuongThayDoi": 20,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200011 [Lô: TEST-COMP-1787221387758, HSD: 2027-12-31]"
+    },
+    {
+      "id": 16,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.773Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200012",
+      "khoTruoc": 140,
+      "khoSau": 145,
+      "soLuongThayDoi": 5,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200012 [Lô: BATCH-ALPHA-1787221387771, HSD: 2026-11-01]"
+    },
+    {
+      "id": 17,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.777Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200013",
+      "khoTruoc": 145,
+      "khoSau": 150,
+      "soLuongThayDoi": 5,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200013 [Lô: BATCH-BETA-1787221387771, HSD: 2027-05-01]"
+    },
+    {
+      "id": 18,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.783Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200007",
+      "khoTruoc": 150,
+      "khoSau": 147,
+      "soLuongThayDoi": -3,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200007 [FEFO: Lô BATCH-ALPHA-1787221387771 (HSD: 2026-11-01) - giảm 3]"
+    },
+    {
+      "id": 19,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.789Z",
+      "loaiGiaoDich": "NhapHang",
+      "thamChieuId": "PN202608200014",
+      "khoTruoc": 147,
+      "khoSau": 152,
+      "soLuongThayDoi": 5,
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "ghiChu": "Nhập kho từ phiếu sỉ PN202608200014 [Lô: BATCH-EXPIRED-1787221387787, HSD: 2020-01-01]"
+    },
+    {
+      "id": 20,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.794Z",
+      "loaiGiaoDich": "BanHang",
+      "thamChieuId": "HD202608200008",
+      "khoTruoc": 152,
+      "khoSau": 150,
+      "soLuongThayDoi": -2,
+      "nguoiThucHien": "Nhân viên bán hàng",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Bán lẻ hóa đơn HD202608200008 [FEFO: Lô BATCH-ALPHA-1787221387771 (HSD: 2026-11-01) - giảm 2]"
+    },
+    {
+      "id": 21,
+      "hangHoaId": 1,
+      "ngayPhatSinh": "2026-08-20T17:23:07.808Z",
+      "loaiGiaoDich": "KiemKe",
+      "thamChieuId": "PKK202608200006",
+      "khoTruoc": 150,
+      "khoSau": 160,
+      "soLuongThayDoi": 10,
+      "nguoiThucHien": "Chủ đại lý",
+      "ip": "127.0.0.1",
+      "userAgent": "Web Browser",
+      "ghiChu": "Điều chỉnh khớp lệch kiểm kê PKK202608200006 (Lệch: +10)"
+    }
+  ],
+  "congNoKhachHangs": {
+    "1": 640000,
+    "2": 0,
+    "3": 0
+  },
+  "congNoNhaCungCaps": {
+    "1": 12400000,
+    "2": 0
+  },
+  "phieuThus": [
+    {
+      "id": 1,
+      "maPhieuThu": "PT000001",
+      "ngayLap": "2026-07-27T08:30:00",
+      "soTien": 200000,
+      "nguonNop": "Bán hàng theo hóa đơn HD000001 (Khách trả trước)",
+      "khachHangId": 1,
+      "ghiChu": "Trả trước một phần tiền"
+    },
+    {
+      "id": 2,
+      "maPhieuThu": "PT202608200001",
+      "ngayLap": "2026-08-20T17:22:02.268Z",
+      "soTien": 450000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200001",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:22:02.268Z",
+      "NgayCapNhat": "2026-08-20T17:22:02.268Z"
+    },
+    {
+      "id": 3,
+      "maPhieuThu": "PT202608200002",
+      "ngayLap": "2026-08-20T17:22:02.290Z",
+      "soTien": 300000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200002",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:22:02.290Z",
+      "NgayCapNhat": "2026-08-20T17:22:02.290Z"
+    },
+    {
+      "id": 4,
+      "maPhieuThu": "PT202608200003",
+      "ngayLap": "2026-08-20T17:22:26.584Z",
+      "soTien": 450000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200003",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:22:26.584Z",
+      "NgayCapNhat": "2026-08-20T17:22:26.584Z"
+    },
+    {
+      "id": 5,
+      "maPhieuThu": "PT202608200004",
+      "ngayLap": "2026-08-20T17:22:26.590Z",
+      "soTien": 300000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200004",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:22:26.590Z",
+      "NgayCapNhat": "2026-08-20T17:22:26.590Z"
+    },
+    {
+      "id": 6,
+      "maPhieuThu": "PT202608200005",
+      "ngayLap": "2026-08-20T17:22:47.967Z",
+      "soTien": 450000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200005",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:22:47.967Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.967Z"
+    },
+    {
+      "id": 7,
+      "maPhieuThu": "PT202608200006",
+      "ngayLap": "2026-08-20T17:22:47.975Z",
+      "soTien": 300000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200006",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:22:47.975Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.975Z"
+    },
+    {
+      "id": 8,
+      "maPhieuThu": "PT202608200007",
+      "ngayLap": "2026-08-20T17:23:07.783Z",
+      "soTien": 450000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200007",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:23:07.783Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.783Z"
+    },
+    {
+      "id": 9,
+      "maPhieuThu": "PT202608200008",
+      "ngayLap": "2026-08-20T17:23:07.794Z",
+      "soTien": 300000,
+      "nguonNop": "Khách thanh toán hóa đơn HD202608200008",
+      "khachHangId": 1,
+      "ghiChu": "Trả ngay tiền mặt khi mua hàng.",
+      "NgayTao": "2026-08-20T17:23:07.794Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.794Z"
+    }
+  ],
+  "phieuChis": [
+    {
+      "id": 1,
+      "maPhieuChi": "PC000001",
+      "ngayLap": "2026-07-26T10:00:00",
+      "soTien": 10000000,
+      "mucDichChi": "Thanh toán một phần tiền phiếu nhập PN000001",
+      "nhaCungCapId": 1,
+      "ghiChu": "Trả trước tiền sỉ"
+    }
+  ],
+  "soQuys": [
+    {
+      "id": 1,
+      "ngayGiaoDich": "2026-07-25T00:00:00",
+      "loaiPhieu": "Thu",
+      "maChungTu": "KHAIVI",
+      "soTienThayDoi": 50000000,
+      "soDuQuy": 50000000
+    },
+    {
+      "id": 2,
+      "ngayGiaoDich": "2026-07-26T10:00:00",
+      "loaiPhieu": "Chi",
+      "maChungTu": "PC000001",
+      "soTienThayDoi": -10000000,
+      "soDuQuy": 40000000
+    },
+    {
+      "id": 3,
+      "ngayGiaoDich": "2026-07-27T08:30:00",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT000001",
+      "soTienThayDoi": 200000,
+      "soDuQuy": 40200000
+    },
+    {
+      "id": 4,
+      "ngayGiaoDich": "2026-08-20T17:22:02.268Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200001",
+      "soTienThayDoi": 450000,
+      "soDuQuy": 40650000
+    },
+    {
+      "id": 5,
+      "ngayGiaoDich": "2026-08-20T17:22:02.290Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200002",
+      "soTienThayDoi": 300000,
+      "soDuQuy": 40950000
+    },
+    {
+      "id": 6,
+      "ngayGiaoDich": "2026-08-20T17:22:26.584Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200003",
+      "soTienThayDoi": 450000,
+      "soDuQuy": 41400000
+    },
+    {
+      "id": 7,
+      "ngayGiaoDich": "2026-08-20T17:22:26.590Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200004",
+      "soTienThayDoi": 300000,
+      "soDuQuy": 41700000
+    },
+    {
+      "id": 8,
+      "ngayGiaoDich": "2026-08-20T17:22:47.967Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200005",
+      "soTienThayDoi": 450000,
+      "soDuQuy": 42150000
+    },
+    {
+      "id": 9,
+      "ngayGiaoDich": "2026-08-20T17:22:47.975Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200006",
+      "soTienThayDoi": 300000,
+      "soDuQuy": 42450000
+    },
+    {
+      "id": 10,
+      "ngayGiaoDich": "2026-08-20T17:23:07.783Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200007",
+      "soTienThayDoi": 450000,
+      "soDuQuy": 42900000
+    },
+    {
+      "id": 11,
+      "ngayGiaoDich": "2026-08-20T17:23:07.794Z",
+      "loaiPhieu": "Thu",
+      "maChungTu": "PT202608200008",
+      "soTienThayDoi": 300000,
+      "soDuQuy": 43200000
+    }
+  ],
+  "caiDats": {
+    "tenCuaHang": "Cửa Hàng Vật Tư Nông Nghiệp Hải Đăng",
+    "diaChi": "Ngã tư chợ xóm Tuy Định, Thái Bình",
+    "dienThoai": "0399888777",
+    "chuCuaHang": "Vũ Hải Đăng"
+  },
+  "hoiDapAIs": [
+    {
+      "id": 1,
+      "thoiGian": "2026-07-27T15:00:00",
+      "cauHoiKhach": "Lúa bị đạo ôn cổ bông dùng thuốc gì?",
+      "cauTraLoiAI": "Đối với lúa bị đạo ôn cổ bông, bà con nên ưu tiên phun phòng hoặc trị sớm bằng các thuốc chứa hoạt chất Tricyclazole (như Filia) hoặc Azoxystrobin kết hợp Difenoconazole (như Amistar Top 325SC đang có sẵn tại kệ). Phun vào lúc lúa thấp thoáng trỗ và sau khi trỗ thoát hoàn toàn.",
+      "nguonDuLieuBaoGom": "Amistar Top 325SC"
+    }
+  ],
+  "thongKeNgays": {
+    "2026-07-26": {
+      "doanhThu": 0,
+      "loiNhuan": 0,
+      "soHoaDon": 0,
+      "soKhachHangMoi": 0,
+      "tongThuNo": 0,
+      "tongChiNo": 10000000
+    },
+    "2026-07-27": {
+      "doanhThu": 840000,
+      "loiNhuan": 90000,
+      "soHoaDon": 1,
+      "soKhachHangMoi": 0,
+      "tongThuNo": 200000,
+      "tongChiNo": 0
+    },
+    "2026-08-20": {
+      "doanhThu": 3000000,
+      "loiNhuan": 1250000,
+      "soHoaDon": 8,
+      "soKhachHangMoi": 0,
+      "tongThuNo": 3000000,
+      "tongChiNo": 0
+    }
+  },
+  "phienBanDuLieus": [
+    {
+      "id": 1,
+      "ngaySaoLuu": "2026-07-27T00:00:00",
+      "tenFileBackup": "backup_v1.1_20260727.sql",
+      "dungLuong": 15240,
+      "nguoiTao": "Hệ thống tự động",
+      "ghiChu": "Sao lưu định kỳ hàng tuần."
+    }
+  ],
+  "nhatKyHoatDongs": [
+    {
+      "id": 57,
+      "thoiGian": "2026-08-20T17:23:07.809Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "KiemKeKho",
+      "doiTuong": "kiemKes",
+      "idDuLieu": 6,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":6,\"maPhieuKiemKe\":\"PKK202608200006\",\"ngayLap\":\"2026-08-20T17:23:07.802Z\",\"nguoiKiemKe\":\"Kiểm kho viên\",\"ghiChu\":\"Đợt kiểm nháp\",\"trangThai\":\"DaXacNhan\",\"chiTiet\":[{\"hangHoaId\":1,\"tonHeThong\":150,\"tonThucTe\":160,\"chenhLech\":10}],\"nguoiThucHien\":\"Chủ đại lý\",\"thoiGianXacNhan\":\"2026-08-20T17:23:07.808Z\"}",
+      "chiTiet": "Xác nhận kiểm kê hoàn tất phiếu PKK202608200006, thực hiện bởi Chủ đại lý. Số mặt hàng lệch: 1",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 56,
+      "thoiGian": "2026-08-20T17:23:07.794Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 9,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":9,\"maHoaDon\":\"HD202608200008\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:23:07.794Z\",\"tongTien\":300000,\"giamGia\":0,\"khachTra\":300000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:23:07.794Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.794Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200008 bán cho Nguyễn Văn An, tổng tiền: 300,000đ (Khách trả: 300,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 55,
+      "thoiGian": "2026-08-20T17:23:07.789Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 12,400,000đ, Thực tế tính toán: 0đ. Chênh lệch: 12,400,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 54,
+      "thoiGian": "2026-08-20T17:23:07.789Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 15,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":15,\"maPhieuNhap\":\"PN202608200014\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:23:07.789Z\",\"tongTien\":500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:23:07.789Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:23:07.789Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.789Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200014 từ Tổng kho sỉ Miền Bắc, tổng tiền: 500,000đ (Đã thanh toán: 0đ, Còn nợ: 500,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 53,
+      "thoiGian": "2026-08-20T17:23:07.789Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200014 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 12,400,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 52,
+      "thoiGian": "2026-08-20T17:23:07.789Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 15,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200014: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 51,
+      "thoiGian": "2026-08-20T17:23:07.783Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 8,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":8,\"maHoaDon\":\"HD202608200007\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:23:07.783Z\",\"tongTien\":450000,\"giamGia\":0,\"khachTra\":450000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:23:07.783Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.783Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200007 bán cho Nguyễn Văn An, tổng tiền: 450,000đ (Khách trả: 450,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 50,
+      "thoiGian": "2026-08-20T17:23:07.777Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 11,900,000đ, Thực tế tính toán: 0đ. Chênh lệch: 11,900,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 49,
+      "thoiGian": "2026-08-20T17:23:07.777Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 14,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":14,\"maPhieuNhap\":\"PN202608200013\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:23:07.777Z\",\"tongTien\":500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:23:07.777Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:23:07.777Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.777Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200013 từ Tổng kho sỉ Miền Bắc, tổng tiền: 500,000đ (Đã thanh toán: 0đ, Còn nợ: 500,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 48,
+      "thoiGian": "2026-08-20T17:23:07.777Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200013 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 11,900,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 47,
+      "thoiGian": "2026-08-20T17:23:07.777Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 14,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200013: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 46,
+      "thoiGian": "2026-08-20T17:23:07.773Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 11,400,000đ, Thực tế tính toán: 0đ. Chênh lệch: 11,400,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 45,
+      "thoiGian": "2026-08-20T17:23:07.773Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 13,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":13,\"maPhieuNhap\":\"PN202608200012\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:23:07.773Z\",\"tongTien\":500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:23:07.773Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:23:07.773Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.773Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200012 từ Tổng kho sỉ Miền Bắc, tổng tiền: 500,000đ (Đã thanh toán: 0đ, Còn nợ: 500,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 44,
+      "thoiGian": "2026-08-20T17:23:07.773Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200012 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 11,400,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 43,
+      "thoiGian": "2026-08-20T17:23:07.773Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 13,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200012: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 42,
+      "thoiGian": "2026-08-20T17:23:07.760Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 10,900,000đ, Thực tế tính toán: 0đ. Chênh lệch: 10,900,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 41,
+      "thoiGian": "2026-08-20T17:23:07.760Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 12,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":12,\"maPhieuNhap\":\"PN202608200011\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:23:07.759Z\",\"tongTien\":2000000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:23:07.760Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:23:07.759Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.759Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200011 từ Tổng kho sỉ Miền Bắc, tổng tiền: 2,000,000đ (Đã thanh toán: 0đ, Còn nợ: 2,000,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 40,
+      "thoiGian": "2026-08-20T17:23:07.760Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200011 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 10,900,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 39,
+      "thoiGian": "2026-08-20T17:23:07.760Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 12,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200011: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 38,
+      "thoiGian": "2026-08-20T17:23:07.754Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TạoChờXácNhậnPhiếuNhập",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 11,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":11,\"maPhieuNhap\":\"PN202608200010\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:23:07.754Z\",\"tongTien\":1500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"ChoXacNhan\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"ChoXacNhan\",\"thoiGian\":\"2026-08-20T17:23:07.754Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:23:07.754Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.754Z\"}",
+      "chiTiet": "Lập phiếu nhập dạng CHỜ XÁC NHẬN PN202608200010 từ Tổng kho sỉ Miền Bắc, tổng tiền: 1,500,000đ (Chưa cập nhật tồn kho hay nợ sỉ) (BR-06-003)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 37,
+      "thoiGian": "2026-08-20T17:23:07.754Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 11,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200010: cũ [None] -> mới [ChoXacNhan]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 36,
+      "thoiGian": "2026-08-20T17:23:07.747Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TạoNhápPhiếuNhập",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 10,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":10,\"maPhieuNhap\":\"PN202608200009\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:23:07.746Z\",\"tongTien\":1000000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"Nhap\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"Nhap\",\"thoiGian\":\"2026-08-20T17:23:07.746Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:23:07.746Z\",\"NgayCapNhat\":\"2026-08-20T17:23:07.746Z\"}",
+      "chiTiet": "Lập phiếu nhập dạng NHÁP PN202608200009 từ Tổng kho sỉ Miền Bắc, tổng tiền: 1,000,000đ (Chưa cập nhật tồn kho hay nợ sỉ) (BR-06-003)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 35,
+      "thoiGian": "2026-08-20T17:23:07.747Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 10,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200009: cũ [None] -> mới [Nhap]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 34,
+      "thoiGian": "2026-08-20T17:22:58.356Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "KiemKeKho",
+      "doiTuong": "kiemKes",
+      "idDuLieu": 5,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":5,\"maPhieuKiemKe\":\"PKK202608200005\",\"ngayLap\":\"2026-08-20T17:22:58.351Z\",\"nguoiKiemKe\":\"Kiểm kho viên\",\"ghiChu\":\"Đợt kiểm nháp test\",\"trangThai\":\"DaXacNhan\",\"chiTiet\":[{\"hangHoaId\":1,\"tonHeThong\":110,\"tonThucTe\":120,\"chenhLech\":10}],\"nguoiThucHien\":\"Chủ đại lý\",\"thoiGianXacNhan\":\"2026-08-20T17:22:58.355Z\"}",
+      "chiTiet": "Xác nhận kiểm kê hoàn tất phiếu PKK202608200005, thực hiện bởi Chủ đại lý. Số mặt hàng lệch: 1",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 33,
+      "thoiGian": "2026-08-20T17:22:47.975Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 7,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":7,\"maHoaDon\":\"HD202608200006\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:22:47.975Z\",\"tongTien\":300000,\"giamGia\":0,\"khachTra\":300000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:22:47.975Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.975Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200006 bán cho Nguyễn Văn An, tổng tiền: 300,000đ (Khách trả: 300,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 32,
+      "thoiGian": "2026-08-20T17:22:47.971Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 8,900,000đ, Thực tế tính toán: 0đ. Chênh lệch: 8,900,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 31,
+      "thoiGian": "2026-08-20T17:22:47.971Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 9,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":9,\"maPhieuNhap\":\"PN202608200008\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:47.971Z\",\"tongTien\":500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:22:47.971Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:47.971Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.971Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200008 từ Tổng kho sỉ Miền Bắc, tổng tiền: 500,000đ (Đã thanh toán: 0đ, Còn nợ: 500,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 30,
+      "thoiGian": "2026-08-20T17:22:47.971Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200008 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 8,900,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 29,
+      "thoiGian": "2026-08-20T17:22:47.971Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 9,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200008: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 28,
+      "thoiGian": "2026-08-20T17:22:47.967Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 6,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":6,\"maHoaDon\":\"HD202608200005\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:22:47.967Z\",\"tongTien\":450000,\"giamGia\":0,\"khachTra\":450000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:22:47.967Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.967Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200005 bán cho Nguyễn Văn An, tổng tiền: 450,000đ (Khách trả: 450,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 27,
+      "thoiGian": "2026-08-20T17:22:47.962Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 8,400,000đ, Thực tế tính toán: 0đ. Chênh lệch: 8,400,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 26,
+      "thoiGian": "2026-08-20T17:22:47.962Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 8,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":8,\"maPhieuNhap\":\"PN202608200007\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:47.962Z\",\"tongTien\":500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:22:47.962Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:47.962Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.962Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200007 từ Tổng kho sỉ Miền Bắc, tổng tiền: 500,000đ (Đã thanh toán: 0đ, Còn nợ: 500,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 25,
+      "thoiGian": "2026-08-20T17:22:47.962Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200007 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 8,400,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 24,
+      "thoiGian": "2026-08-20T17:22:47.962Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 8,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200007: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 23,
+      "thoiGian": "2026-08-20T17:22:47.959Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 7,900,000đ, Thực tế tính toán: 0đ. Chênh lệch: 7,900,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 22,
+      "thoiGian": "2026-08-20T17:22:47.959Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 7,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":7,\"maPhieuNhap\":\"PN202608200006\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:47.959Z\",\"tongTien\":500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:22:47.959Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:47.959Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.959Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200006 từ Tổng kho sỉ Miền Bắc, tổng tiền: 500,000đ (Đã thanh toán: 0đ, Còn nợ: 500,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 21,
+      "thoiGian": "2026-08-20T17:22:47.959Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200006 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 7,900,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 20,
+      "thoiGian": "2026-08-20T17:22:47.959Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 7,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200006: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 19,
+      "thoiGian": "2026-08-20T17:22:47.950Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoChenhLechCongNo",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO ĐỐI CHIẾU CÔNG NỢ: Phát hiện chênh lệch công nợ nhà cung cấp. Sổ sách: 7,400,000đ, Thực tế tính toán: 0đ. Chênh lệch: 7,400,000đ. Từ chối khóa sổ nếu có chênh lệch (BR-06-034).",
+      "ip": "127.0.0.1",
+      "thietBi": "Hệ thống / AI"
+    },
+    {
+      "id": 18,
+      "thoiGian": "2026-08-20T17:22:47.949Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "NhapHang",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 6,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":6,\"maPhieuNhap\":\"PN202608200005\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:47.948Z\",\"tongTien\":2000000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"HoanThanh\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"HoanThanh\",\"thoiGian\":\"2026-08-20T17:22:47.948Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:47.948Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.948Z\"}",
+      "chiTiet": "Xác nhận HOÀN THÀNH phiếu nhập PN202608200005 từ Tổng kho sỉ Miền Bắc, tổng tiền: 2,000,000đ (Đã thanh toán: 0đ, Còn nợ: 2,000,000đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 17,
+      "thoiGian": "2026-08-20T17:22:47.949Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "CanhBaoVuotHanMuc",
+      "doiTuong": "nhaCungCaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "⚠️ CẢNH BÁO VƯỢT HẠN MỨC: Hoàn thành phiếu nhập PN202608200005 vượt hạn mức công nợ của Tổng kho sỉ Miền Bắc. Hạn mức: 0đ, Công nợ mới: 7,400,000đ (BR-06-021).",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 16,
+      "thoiGian": "2026-08-20T17:22:47.948Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 6,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200005: cũ [None] -> mới [HoanThanh]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 15,
+      "thoiGian": "2026-08-20T17:22:47.943Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TạoChờXácNhậnPhiếuNhập",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 5,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":5,\"maPhieuNhap\":\"PN202608200004\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:47.943Z\",\"tongTien\":1500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"ChoXacNhan\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"ChoXacNhan\",\"thoiGian\":\"2026-08-20T17:22:47.943Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:47.943Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.943Z\"}",
+      "chiTiet": "Lập phiếu nhập dạng CHỜ XÁC NHẬN PN202608200004 từ Tổng kho sỉ Miền Bắc, tổng tiền: 1,500,000đ (Chưa cập nhật tồn kho hay nợ sỉ) (BR-06-003)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 14,
+      "thoiGian": "2026-08-20T17:22:47.943Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 5,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200004: cũ [None] -> mới [ChoXacNhan]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 13,
+      "thoiGian": "2026-08-20T17:22:47.939Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TạoNhápPhiếuNhập",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 4,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":4,\"maPhieuNhap\":\"PN202608200003\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:47.938Z\",\"tongTien\":1000000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"Nhap\",\"khoNhap\":\"Kho chính Hải Đăng\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"Nhap\",\"thoiGian\":\"2026-08-20T17:22:47.938Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:47.938Z\",\"NgayCapNhat\":\"2026-08-20T17:22:47.938Z\"}",
+      "chiTiet": "Lập phiếu nhập dạng NHÁP PN202608200003 từ Tổng kho sỉ Miền Bắc, tổng tiền: 1,000,000đ (Chưa cập nhật tồn kho hay nợ sỉ) (BR-06-003)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 12,
+      "thoiGian": "2026-08-20T17:22:47.938Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 4,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200003: cũ [None] -> mới [Nhap]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 11,
+      "thoiGian": "2026-08-20T17:22:26.590Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 5,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":5,\"maHoaDon\":\"HD202608200004\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:22:26.590Z\",\"tongTien\":300000,\"giamGia\":0,\"khachTra\":300000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:22:26.590Z\",\"NgayCapNhat\":\"2026-08-20T17:22:26.590Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200004 bán cho Nguyễn Văn An, tổng tiền: 300,000đ (Khách trả: 300,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 10,
+      "thoiGian": "2026-08-20T17:22:26.585Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 4,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":4,\"maHoaDon\":\"HD202608200003\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:22:26.584Z\",\"tongTien\":450000,\"giamGia\":0,\"khachTra\":450000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:22:26.584Z\",\"NgayCapNhat\":\"2026-08-20T17:22:26.584Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200003 bán cho Nguyễn Văn An, tổng tiền: 450,000đ (Khách trả: 450,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 9,
+      "thoiGian": "2026-08-20T17:22:26.542Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TạoChờXácNhậnPhiếuNhập",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 3,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":3,\"maPhieuNhap\":\"PN202608200002\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:26.542Z\",\"tongTien\":1500000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"ChoXacNhan\",\"khoNhap\":\"Kho chính\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"ChoXacNhan\",\"thoiGian\":\"2026-08-20T17:22:26.542Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:26.542Z\",\"NgayCapNhat\":\"2026-08-20T17:22:26.542Z\"}",
+      "chiTiet": "Lập phiếu nhập dạng CHỜ XÁC NHẬN PN202608200002 từ Tổng kho sỉ Miền Bắc, tổng tiền: 1,500,000đ (Chưa cập nhật tồn kho hay nợ sỉ) (BR-06-003)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 8,
+      "thoiGian": "2026-08-20T17:22:26.542Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 3,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200002: cũ [None] -> mới [ChoXacNhan]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 7,
+      "thoiGian": "2026-08-20T17:22:26.537Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TạoNhápPhiếuNhập",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 2,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":2,\"maPhieuNhap\":\"PN202608200001\",\"nhaCungCapId\":1,\"ngayNhap\":\"2026-08-20T17:22:26.537Z\",\"tongTien\":1000000,\"daThanhToan\":0,\"ghiChu\":\"\",\"trangThai\":\"Nhap\",\"khoNhap\":\"Kho chính\",\"version\":1,\"statusHistory\":[{\"trangThaiCu\":\"None\",\"trangThaiMoi\":\"Nhap\",\"thoiGian\":\"2026-08-20T17:22:26.537Z\",\"nguoiThucHien\":\"Tester\",\"diaChiIP\":\"127.0.0.1\",\"thietBi\":\"Web Browser\",\"lyDo\":\"Khởi tạo phiếu nhập sỉ mới\"}],\"NgayTao\":\"2026-08-20T17:22:26.537Z\",\"NgayCapNhat\":\"2026-08-20T17:22:26.537Z\"}",
+      "chiTiet": "Lập phiếu nhập dạng NHÁP PN202608200001 từ Tổng kho sỉ Miền Bắc, tổng tiền: 1,000,000đ (Chưa cập nhật tồn kho hay nợ sỉ) (BR-06-003)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 6,
+      "thoiGian": "2026-08-20T17:22:26.537Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "ThayDoiTrangThaiPhieuNhap",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 2,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Nhật ký thay đổi trạng thái phiếu nhập PN202608200001: cũ [None] -> mới [Nhap]. Lý do: Khởi tạo phiếu nhập sỉ mới. Người thực hiện: Tester. IP: 127.0.0.1. Thiết bị: Web Browser",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 5,
+      "thoiGian": "2026-08-20T17:22:02.290Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 3,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":3,\"maHoaDon\":\"HD202608200002\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:22:02.290Z\",\"tongTien\":300000,\"giamGia\":0,\"khachTra\":300000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:22:02.290Z\",\"NgayCapNhat\":\"2026-08-20T17:22:02.290Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200002 bán cho Nguyễn Văn An, tổng tiền: 300,000đ (Khách trả: 300,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 4,
+      "thoiGian": "2026-08-20T17:22:02.283Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "BanHang",
+      "doiTuong": "hoaDonBans",
+      "idDuLieu": 2,
+      "giaTriCu": "",
+      "giaTriMoi": "{\"id\":2,\"maHoaDon\":\"HD202608200001\",\"khachHangId\":1,\"ngayBan\":\"2026-08-20T17:22:02.268Z\",\"tongTien\":450000,\"giamGia\":0,\"khachTra\":450000,\"ghiChu\":\"\",\"NgayTao\":\"2026-08-20T17:22:02.268Z\",\"NgayCapNhat\":\"2026-08-20T17:22:02.268Z\"}",
+      "chiTiet": "Lập hóa đơn HD202608200001 bán cho Nguyễn Văn An, tổng tiền: 450,000đ (Khách trả: 450,000đ, Ghi nợ: 0đ)",
+      "ip": "127.0.0.1",
+      "thietBi": "Web Browser"
+    },
+    {
+      "id": 3,
+      "thoiGian": "2026-08-20T17:13:30.331Z",
+      "nguoiThucHien": "Chủ cửa hàng (Hải Đăng)",
+      "loaiHanhDong": "TuDongHieuChinhTrangThaiThanhToan",
+      "doiTuong": "phieuNhaps",
+      "idDuLieu": 1,
+      "giaTriCu": "",
+      "giaTriMoi": "",
+      "chiTiet": "Hệ thống tự động hiệu chỉnh trạng thái thanh toán phiếu PN000001 từ 'Chưa xác định' sang 'ThanhToanMotPhan' để tránh không khớp dữ liệu (EX-06-036-001).",
+      "ip": "222.252.21.66, 169.254.169.126",
+      "thietBi": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+    },
+    {
+      "id": 1,
+      "thoiGian": "2026-07-26T10:00:00",
+      "loaiHanhDong": "NhapHang",
+      "chiTiet": "Nhập phiếu hàng sỉ mã PN000001 trị giá 15,400,000đ từ Tổng kho sỉ Miền Bắc"
+    },
+    {
+      "id": 2,
+      "thoiGian": "2026-07-27T08:30:00",
+      "loaiHanhDong": "BanHang",
+      "chiTiet": "Lập hóa đơn HD000001 bán lẻ 10 chai Anvil cho khách Nguyễn Văn An, ghi nhận nợ gối vụ 640,000đ"
+    }
+  ],
+  "tepDinhKems": [
+    {
+      "id": 1,
+      "ngayDinhKem": "2026-07-26T10:10:00",
+      "loaiChungTuThamChieu": "PhieuNhap",
+      "maChungTuThamChieu": "PN000001",
+      "tenFile": "hoa_don_do_loctroi.png",
+      "duongDanFile": "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?auto=format&fit=crop&q=80&w=200",
+      "kichThuoc": 204800
+    }
+  ],
+  "muaVus": [
+    {
+      "id": 1,
+      "khachHangId": 1,
+      "tenVu": "Vụ Đông Xuân 2026",
+      "cayTrong": "Lúa nước",
+      "dienTich": 6.5,
+      "ngayBatDau": "2026-01-10T08:00:00.000Z",
+      "ngayThuHoach": "2026-05-15T17:00:00.000Z",
+      "ghiChu": "Lúa sinh trưởng tốt, năng suất cao."
+    },
+    {
+      "id": 2,
+      "khachHangId": 2,
+      "tenVu": "Vụ Trái Cây 2026",
+      "cayTrong": "Cây ăn quả",
+      "dienTich": 2,
+      "ngayBatDau": "2026-02-15T08:00:00.000Z",
+      "ngayThuHoach": "",
+      "ghiChu": "Chăm bón thúc ra hoa cam bưởi."
+    }
+  ],
+  "nhatKySuduongs": [
+    {
+      "id": 1,
+      "muaVuId": 1,
+      "ngayPhatSinh": "2026-02-20T09:00:00.000Z",
+      "loaiHanhDong": "BonPhan",
+      "tenVatTu": "NPK Đầu Trâu 13-13-13 TE",
+      "lieuLuong": "25kg/sào Bắc Bộ",
+      "hieuQua": "Hiệu quả cao - đẻ nhánh khỏe",
+      "ghiChu": "Bón đợt nhú đòng đẻ nhánh."
+    },
+    {
+      "id": 2,
+      "muaVuId": 1,
+      "ngayPhatSinh": "2026-04-12T08:30:00.000Z",
+      "loaiHanhDong": "PhunThuoc",
+      "tenVatTu": "Anvil 5SC",
+      "lieuLuong": "20ml/bình 16 lít",
+      "hieuQua": "Hiệu quả cao - sạch đạo ôn",
+      "ghiChu": "Phun xịt phòng đạo ôn cổ bông trỗ."
+    }
+  ],
+  "nhatKyTuVans": [
+    {
+      "id": 1,
+      "khachHangId": 1,
+      "ngayTuVan": "2026-07-27T15:00:00.000Z",
+      "trieuChung": "Lúa có chấm mắt én xám ở lá đòng",
+      "chanDoan": "Đạo ôn lá nấm Pyricularia gây ra",
+      "giaiPhapPhacDo": "Phun ngay Anvil 5SC liều lượng 20ml cho bình 16L lúc chiều mát",
+      "hieuQuaSuDung": "Đạt hiệu quả cao, vết bệnh khô nhanh sau 2 ngày phun",
+      "aiHocLarned": true
+    }
+  ],
+  "loHangs": [
+    {
+      "id": 1,
+      "hangHoaId": 1,
+      "maLo": "ANVIL-L01",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-06-30",
+      "soLuongNhap": 100,
+      "soLuongTon": 80,
+      "giaNhap": 75000,
+      "version": 5
+    },
+    {
+      "id": 2,
+      "hangHoaId": 2,
+      "maLo": "AMISTAR-L01",
+      "ngaySanXuat": "2026-03-01",
+      "hanSuDung": "2029-03-01",
+      "soLuongNhap": 25,
+      "soLuongTon": 25,
+      "giaNhap": 260000
+    },
+    {
+      "id": 3,
+      "hangHoaId": 3,
+      "maLo": "NPK-L01",
+      "ngaySanXuat": "2026-05-15",
+      "hanSuDung": "2028-05-15",
+      "soLuongNhap": 10,
+      "soLuongTon": 10,
+      "giaNhap": 680000
+    },
+    {
+      "id": 4,
+      "hangHoaId": 1,
+      "maLo": "TEST-COMP-1787221367947",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 20,
+      "soLuongTon": 40,
+      "phieuNhapId": 6,
+      "version": 3
+    },
+    {
+      "id": 5,
+      "hangHoaId": 1,
+      "maLo": "BATCH-ALPHA-1787221367957",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2026-11-01",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 5,
+      "soLuongTon": 0,
+      "phieuNhapId": 7,
+      "version": 3
+    },
+    {
+      "id": 6,
+      "hangHoaId": 1,
+      "maLo": "BATCH-BETA-1787221367957",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-05-01",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 5,
+      "soLuongTon": 5,
+      "phieuNhapId": 8,
+      "version": 1
+    },
+    {
+      "id": 7,
+      "hangHoaId": 1,
+      "maLo": "BATCH-EXPIRED-1787221367970",
+      "ngaySanXuat": "2019-01-01",
+      "hanSuDung": "2020-01-01",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 5,
+      "soLuongTon": 5,
+      "phieuNhapId": 9,
+      "version": 1
+    },
+    {
+      "id": 8,
+      "hangHoaId": 1,
+      "maLo": "TEST-COMP-1787221387758",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-12-31",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 20,
+      "soLuongTon": 20,
+      "phieuNhapId": 12,
+      "version": 1
+    },
+    {
+      "id": 9,
+      "hangHoaId": 1,
+      "maLo": "BATCH-ALPHA-1787221387771",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2026-11-01",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 5,
+      "soLuongTon": 0,
+      "phieuNhapId": 13,
+      "version": 3
+    },
+    {
+      "id": 10,
+      "hangHoaId": 1,
+      "maLo": "BATCH-BETA-1787221387771",
+      "ngaySanXuat": "2026-01-01",
+      "hanSuDung": "2027-05-01",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 5,
+      "soLuongTon": 5,
+      "phieuNhapId": 14,
+      "version": 1
+    },
+    {
+      "id": 11,
+      "hangHoaId": 1,
+      "maLo": "BATCH-EXPIRED-1787221387787",
+      "ngaySanXuat": "2019-01-01",
+      "hanSuDung": "2020-01-01",
+      "nhaSanXuat": "Tổng kho sỉ Miền Bắc",
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "giaNhap": 100000,
+      "soLuongNhap": 5,
+      "soLuongTon": 5,
+      "phieuNhapId": 15,
+      "version": 1
+    }
+  ],
+  "baoGiaNCCs": [],
+  "taiLieuNCCs": [],
+  "idempotencyKeys": {
+    "test-comp-key-1787221367947": {
+      "id": 6,
+      "maPhieuNhap": "PN202608200005",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.948Z",
+      "tongTien": 2000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.948Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.948Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.948Z",
+      "documentHash": "b8b6ffd97ecb8f41808db2d6039ecb052c6013c1527cb34f49acaa7c91305156"
+    },
+    "key-alpha-1787221367957": {
+      "id": 7,
+      "maPhieuNhap": "PN202608200006",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.959Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.959Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.959Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.959Z",
+      "documentHash": "27fc17289f2176d04eae1afe4ed551728ebc13bd93d4733280bbfe35da8c5699"
+    },
+    "key-beta-1787221367961": {
+      "id": 8,
+      "maPhieuNhap": "PN202608200007",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.962Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.962Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.962Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.962Z",
+      "documentHash": "52d065fb55bb4c8f025bde1be4560d73cef7b27f90151c82daefebb40ea3add3"
+    },
+    "key-exp-1787221367970": {
+      "id": 9,
+      "maPhieuNhap": "PN202608200008",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:22:47.971Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:22:47.971Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:22:47.971Z",
+      "NgayCapNhat": "2026-08-20T17:22:47.971Z",
+      "documentHash": "9821106c28ddd0cdb73db5c75280a8ec13d089b157ea8e494c934405f6462683"
+    },
+    "test-comp-key-1787221387758": {
+      "id": 12,
+      "maPhieuNhap": "PN202608200011",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.759Z",
+      "tongTien": 2000000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.760Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.759Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.759Z",
+      "documentHash": "d652eedfef7a953bef857e20a45c7c9aed711ba696b14f5682504eedf8b85020"
+    },
+    "key-alpha-1787221387771": {
+      "id": 13,
+      "maPhieuNhap": "PN202608200012",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.773Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.773Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.773Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.773Z",
+      "documentHash": "2ee964b72418adf094285e18cbe9c87a4ad3ae6535788f0570d9b34b55a158a3"
+    },
+    "key-beta-1787221387775": {
+      "id": 14,
+      "maPhieuNhap": "PN202608200013",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.777Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.777Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.777Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.777Z",
+      "documentHash": "62ebe08c586c4e56c0f4bc9ed500996b6ba7de37ae7231207a77fdf9d96781fd"
+    },
+    "key-exp-1787221387787": {
+      "id": 15,
+      "maPhieuNhap": "PN202608200014",
+      "nhaCungCapId": 1,
+      "ngayNhap": "2026-08-20T17:23:07.789Z",
+      "tongTien": 500000,
+      "daThanhToan": 0,
+      "ghiChu": "",
+      "trangThai": "HoanThanh",
+      "khoNhap": "Kho chính Hải Đăng",
+      "version": 1,
+      "statusHistory": [
+        {
+          "trangThaiCu": "None",
+          "trangThaiMoi": "HoanThanh",
+          "thoiGian": "2026-08-20T17:23:07.789Z",
+          "nguoiThucHien": "Tester",
+          "diaChiIP": "127.0.0.1",
+          "thietBi": "Web Browser",
+          "lyDo": "Khởi tạo phiếu nhập sỉ mới"
+        }
+      ],
+      "NgayTao": "2026-08-20T17:23:07.789Z",
+      "NgayCapNhat": "2026-08-20T17:23:07.789Z",
+      "documentHash": "550ade7b675df167e3ad2b95115c8e00656b775fc674f6bd7ea4b7ebd8cc1f93"
+    }
+  },
+  "lichSuCongNoNhaCungCaps": [
+    {
+      "id": 1,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 6,
+      "maPhieuNhap": "PN202608200005",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 5400000,
+      "giaTriBienDong": 2000000,
+      "duNoSau": 7400000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:22:47.949Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 2,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 7,
+      "maPhieuNhap": "PN202608200006",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 7400000,
+      "giaTriBienDong": 500000,
+      "duNoSau": 7900000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:22:47.959Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 3,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 8,
+      "maPhieuNhap": "PN202608200007",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 7900000,
+      "giaTriBienDong": 500000,
+      "duNoSau": 8400000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:22:47.962Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 4,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 9,
+      "maPhieuNhap": "PN202608200008",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 8400000,
+      "giaTriBienDong": 500000,
+      "duNoSau": 8900000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:22:47.971Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 5,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 12,
+      "maPhieuNhap": "PN202608200011",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 8900000,
+      "giaTriBienDong": 2000000,
+      "duNoSau": 10900000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:23:07.760Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 6,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 13,
+      "maPhieuNhap": "PN202608200012",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 10900000,
+      "giaTriBienDong": 500000,
+      "duNoSau": 11400000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:23:07.773Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 7,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 14,
+      "maPhieuNhap": "PN202608200013",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 11400000,
+      "giaTriBienDong": 500000,
+      "duNoSau": 11900000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:23:07.777Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    },
+    {
+      "id": 8,
+      "nhaCungCapId": 1,
+      "tenNhaCungCap": "Tổng kho sỉ Miền Bắc",
+      "phieuNhapId": 15,
+      "maPhieuNhap": "PN202608200014",
+      "phieuChiId": null,
+      "maPhieuChi": null,
+      "duNoTruoc": 11900000,
+      "giaTriBienDong": 500000,
+      "duNoSau": 12400000,
+      "loaiBienDong": "TangNo",
+      "thoiGian": "2026-08-20T17:23:07.789Z",
+      "nguoiThucHien": "Tester",
+      "ip": "127.0.0.1",
+      "userAgent": "Unknown Agent",
+      "version": 1
+    }
+  ],
+  "kiemKes": [
+    {
+      "id": 1,
+      "maPhieuKiemKe": "PKK202608200001",
+      "ngayLap": "2026-08-20T17:22:02.295Z",
+      "nguoiKiemKe": "Kiểm kho viên",
+      "ghiChu": "Đợt kiểm nháp",
+      "trangThai": "Draft",
+      "chiTiet": [
+        {
+          "hangHoaId": 1,
+          "tonHeThong": 85,
+          "tonThucTe": 95,
+          "chenhLech": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "maPhieuKiemKe": "PKK202608200002",
+      "ngayLap": "2026-08-20T17:22:26.594Z",
+      "nguoiKiemKe": "Kiểm kho viên",
+      "ghiChu": "Đợt kiểm nháp",
+      "trangThai": "Draft",
+      "chiTiet": [
+        {
+          "hangHoaId": 1,
+          "tonHeThong": 80,
+          "tonThucTe": 90,
+          "chenhLech": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "maPhieuKiemKe": "PKK202608200003",
+      "ngayLap": "2026-08-20T17:22:47.983Z",
+      "nguoiKiemKe": "Kiểm kho viên",
+      "ghiChu": "Đợt kiểm nháp",
+      "trangThai": "Draft",
+      "chiTiet": [
+        {
+          "hangHoaId": 1,
+          "tonHeThong": 110,
+          "tonThucTe": 120,
+          "chenhLech": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "maPhieuKiemKe": "PKK202608200004",
+      "ngayLap": "2026-08-20T17:22:52.471Z",
+      "nguoiKiemKe": "Kiểm kho viên",
+      "ghiChu": "Đợt kiểm nháp test",
+      "trangThai": "Draft",
+      "chiTiet": [
+        {
+          "hangHoaId": 1,
+          "tonHeThong": 110,
+          "tonThucTe": 120,
+          "chenhLech": 10
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "maPhieuKiemKe": "PKK202608200005",
+      "ngayLap": "2026-08-20T17:22:58.351Z",
+      "nguoiKiemKe": "Kiểm kho viên",
+      "ghiChu": "Đợt kiểm nháp test",
+      "trangThai": "DaXacNhan",
+      "chiTiet": [
+        {
+          "hangHoaId": 1,
+          "tonHeThong": 110,
+          "tonThucTe": 120,
+          "chenhLech": 10
+        }
+      ],
+      "nguoiThucHien": "Chủ đại lý",
+      "thoiGianXacNhan": "2026-08-20T17:22:58.355Z"
+    },
+    {
+      "id": 6,
+      "maPhieuKiemKe": "PKK202608200006",
+      "ngayLap": "2026-08-20T17:23:07.802Z",
+      "nguoiKiemKe": "Kiểm kho viên",
+      "ghiChu": "Đợt kiểm nháp",
+      "trangThai": "DaXacNhan",
+      "chiTiet": [
+        {
+          "hangHoaId": 1,
+          "tonHeThong": 150,
+          "tonThucTe": 160,
+          "chenhLech": 10
+        }
+      ],
+      "nguoiThucHien": "Chủ đại lý",
+      "thoiGianXacNhan": "2026-08-20T17:23:07.808Z"
+    }
+  ],
+  "configKiemKeThreshold": 10,
+  "lichSuCanhBaos": [],
+  "lichSuTruyXuat": [
+    {
+      "id": 1,
+      "batchId": 5,
+      "maLo": "BATCH-ALPHA-1787221367957",
+      "thoiGian": "2026-08-20T17:22:48.001Z",
+      "nguoiTruyVan": "Quản lý kho (Hải Đăng)",
+      "chuoiTruyXuat": "Trace Batch BATCH-ALPHA-1787221367957 -> backward [Import: PN202608200006, NCC: Tổng kho sỉ Miền Bắc] -> forward [Sales count: 2]"
+    },
+    {
+      "id": 2,
+      "batchId": 9,
+      "maLo": "BATCH-ALPHA-1787221387771",
+      "thoiGian": "2026-08-20T17:23:07.818Z",
+      "nguoiTruyVan": "Quản lý kho (Hải Đăng)",
+      "chuoiTruyXuat": "Trace Batch BATCH-ALPHA-1787221387771 -> backward [Import: PN202608200012, NCC: Tổng kho sỉ Miền Bắc] -> forward [Sales count: 2]"
+    }
+  ],
+  "lichSuLoHangs": [
+    {
+      "id": 1,
+      "batchId": 1,
+      "before": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 90
+      },
+      "after": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 87
+      },
+      "version": 2,
+      "thoiGian": "2026-08-20T17:22:02.268Z"
+    },
+    {
+      "id": 2,
+      "batchId": 1,
+      "before": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 87
+      },
+      "after": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 85
+      },
+      "version": 3,
+      "thoiGian": "2026-08-20T17:22:02.290Z"
+    },
+    {
+      "id": 3,
+      "batchId": 1,
+      "before": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 85
+      },
+      "after": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 82
+      },
+      "version": 4,
+      "thoiGian": "2026-08-20T17:22:26.584Z"
+    },
+    {
+      "id": 4,
+      "batchId": 1,
+      "before": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 82
+      },
+      "after": {
+        "maLo": "ANVIL-L01",
+        "soLuongTon": 80
+      },
+      "version": 5,
+      "thoiGian": "2026-08-20T17:22:26.590Z"
+    },
+    {
+      "id": 5,
+      "batchId": 4,
+      "before": null,
+      "after": {
+        "maLo": "TEST-COMP-1787221367947",
+        "soLuongNhap": 20,
+        "soLuongTon": 20,
+        "hanSuDung": "2027-12-31"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:22:47.948Z"
+    },
+    {
+      "id": 6,
+      "batchId": 5,
+      "before": null,
+      "after": {
+        "maLo": "BATCH-ALPHA-1787221367957",
+        "soLuongNhap": 5,
+        "soLuongTon": 5,
+        "hanSuDung": "2026-11-01"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:22:47.959Z"
+    },
+    {
+      "id": 7,
+      "batchId": 6,
+      "before": null,
+      "after": {
+        "maLo": "BATCH-BETA-1787221367957",
+        "soLuongNhap": 5,
+        "soLuongTon": 5,
+        "hanSuDung": "2027-05-01"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:22:47.962Z"
+    },
+    {
+      "id": 8,
+      "batchId": 5,
+      "before": {
+        "maLo": "BATCH-ALPHA-1787221367957",
+        "soLuongTon": 5
+      },
+      "after": {
+        "maLo": "BATCH-ALPHA-1787221367957",
+        "soLuongTon": 2
+      },
+      "version": 2,
+      "thoiGian": "2026-08-20T17:22:47.967Z"
+    },
+    {
+      "id": 9,
+      "batchId": 7,
+      "before": null,
+      "after": {
+        "maLo": "BATCH-EXPIRED-1787221367970",
+        "soLuongNhap": 5,
+        "soLuongTon": 5,
+        "hanSuDung": "2020-01-01"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:22:47.971Z"
+    },
+    {
+      "id": 10,
+      "batchId": 5,
+      "before": {
+        "maLo": "BATCH-ALPHA-1787221367957",
+        "soLuongTon": 2
+      },
+      "after": {
+        "maLo": "BATCH-ALPHA-1787221367957",
+        "soLuongTon": 0
+      },
+      "version": 3,
+      "thoiGian": "2026-08-20T17:22:47.975Z"
+    },
+    {
+      "id": 11,
+      "batchId": 4,
+      "before": {
+        "maLo": "TEST-COMP-1787221367947",
+        "soLuongTon": 20
+      },
+      "after": {
+        "maLo": "TEST-COMP-1787221367947",
+        "soLuongTon": 30
+      },
+      "version": 2,
+      "thoiGian": "2026-08-20T17:22:58.355Z"
+    },
+    {
+      "id": 12,
+      "batchId": 8,
+      "before": null,
+      "after": {
+        "maLo": "TEST-COMP-1787221387758",
+        "soLuongNhap": 20,
+        "soLuongTon": 20,
+        "hanSuDung": "2027-12-31"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:23:07.760Z"
+    },
+    {
+      "id": 13,
+      "batchId": 9,
+      "before": null,
+      "after": {
+        "maLo": "BATCH-ALPHA-1787221387771",
+        "soLuongNhap": 5,
+        "soLuongTon": 5,
+        "hanSuDung": "2026-11-01"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:23:07.773Z"
+    },
+    {
+      "id": 14,
+      "batchId": 10,
+      "before": null,
+      "after": {
+        "maLo": "BATCH-BETA-1787221387771",
+        "soLuongNhap": 5,
+        "soLuongTon": 5,
+        "hanSuDung": "2027-05-01"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:23:07.777Z"
+    },
+    {
+      "id": 15,
+      "batchId": 9,
+      "before": {
+        "maLo": "BATCH-ALPHA-1787221387771",
+        "soLuongTon": 5
+      },
+      "after": {
+        "maLo": "BATCH-ALPHA-1787221387771",
+        "soLuongTon": 2
+      },
+      "version": 2,
+      "thoiGian": "2026-08-20T17:23:07.783Z"
+    },
+    {
+      "id": 16,
+      "batchId": 11,
+      "before": null,
+      "after": {
+        "maLo": "BATCH-EXPIRED-1787221387787",
+        "soLuongNhap": 5,
+        "soLuongTon": 5,
+        "hanSuDung": "2020-01-01"
+      },
+      "version": 1,
+      "thoiGian": "2026-08-20T17:23:07.789Z"
+    },
+    {
+      "id": 17,
+      "batchId": 9,
+      "before": {
+        "maLo": "BATCH-ALPHA-1787221387771",
+        "soLuongTon": 2
+      },
+      "after": {
+        "maLo": "BATCH-ALPHA-1787221387771",
+        "soLuongTon": 0
+      },
+      "version": 3,
+      "thoiGian": "2026-08-20T17:23:07.794Z"
+    },
+    {
+      "id": 18,
+      "batchId": 4,
+      "before": {
+        "maLo": "TEST-COMP-1787221367947",
+        "soLuongTon": 30
+      },
+      "after": {
+        "maLo": "TEST-COMP-1787221367947",
+        "soLuongTon": 40
+      },
+      "version": 3,
+      "thoiGian": "2026-08-20T17:23:07.808Z"
+    }
+  ],
+  "lichSuOverrideFEFO": []
+}

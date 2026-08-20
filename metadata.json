@@ -1,0 +1,6 @@
+{
+  "name": "Nông Nghiệp Thông Minh",
+  "description": "Hệ thống quản lý vật tư nông nghiệp (Phân bón & Thuốc bảo vệ thực vật) tích hợp AI hỗ trợ OCR bao bì sản phẩm, quản lý tồn kho, công nợ khách hàng, nhà cung cấp và nhật ký hoạt động.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
