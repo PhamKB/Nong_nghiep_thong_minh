@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Product, NhomHang, DonViTinh, CongDung, CayTrong, BenhSauHai, NhaSanXuat, NhaCungCap } from '../types';
 import { SmartComboBox, SmartTable } from './SmartUI';
 import InventoryAuditDashboard from './InventoryAuditDashboard';
+import AiProcurementAssistant from './AiProcurementAssistant';
 import { 
   Plus, 
   Search, 
@@ -22,7 +23,7 @@ import {
 
 interface GoodsManagementProps {
   onSuccess: () => void;
-  initialLeftTab?: 'ai-declare' | 'wholesale-import' | 'stock-audit';
+  initialLeftTab?: 'ai-declare' | 'wholesale-import' | 'stock-audit' | 'ai-procurement';
 }
 
 export default function GoodsManagement({ onSuccess, initialLeftTab = 'ai-declare' }: GoodsManagementProps) {
@@ -75,9 +76,35 @@ export default function GoodsManagement({ onSuccess, initialLeftTab = 'ai-declar
   const [auditReason, setAuditReason] = useState('');
   const [auditSuccess, setAuditSuccess] = useState('');
 
-  // Left Column tab toggling
-  const [leftTab, setLeftTab] = useState<'ai-declare' | 'wholesale-import' | 'stock-audit'>(initialLeftTab);
+  // Left Column tab toggling (BR-06-039 -> BR-06-052)
+  const [leftTab, setLeftTab] = useState<'ai-declare' | 'wholesale-import' | 'stock-audit' | 'ai-procurement'>(initialLeftTab);
   const [suppliers, setSuppliers] = useState<any[]>([]);
+
+  // Apply AI Procurement Suggestion to Wholesale Import Form
+  const handleApplyAiSuggestion = (params: { hangHoaId?: number; nhaCungCapId?: number; soLuong?: number; donGia?: number; moTa?: string }) => {
+    setLeftTab('wholesale-import');
+    setImportSubTab('create');
+    if (params.hangHoaId) {
+      setImportProductId(params.hangHoaId.toString());
+      const matched = products.find(p => p.id === params.hangHoaId);
+      if (matched) {
+        if (params.donGia) {
+          setImportCost(params.donGia.toString());
+        } else {
+          setImportCost(matched.giaNhapHienTai.toString());
+        }
+      }
+    }
+    if (params.nhaCungCapId) {
+      setImportSupId(params.nhaCungCapId.toString());
+    }
+    if (params.soLuong) {
+      setImportQty(params.soLuong.toString());
+    }
+    if (params.moTa) {
+      setImportNote(params.moTa);
+    }
+  };
 
   // Wholesale Import fields
   const [importSupId, setImportSupId] = useState('');
@@ -1021,31 +1048,38 @@ export default function GoodsManagement({ onSuccess, initialLeftTab = 'ai-declar
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         
-        {/* Left Column: Switchable Sub-tabs (5 Cols) */}
-        <div className={`${leftTab === 'stock-audit' ? 'lg:col-span-12' : 'lg:col-span-5'} space-y-6`}>
+        {/* Left Column: Switchable Sub-tabs (5 Cols or 12 Cols for full-width dashboards) */}
+        <div className={`${(leftTab === 'stock-audit' || leftTab === 'ai-procurement') ? 'lg:col-span-12' : 'lg:col-span-5'} space-y-6`}>
           
           {/* Sub-tabs toggler (Geometric Balance Theme style) */}
-          <div className="bg-white border border-slate-200 rounded-xl p-3 shadow-sm flex gap-1">
+          <div className="bg-white border border-slate-200 rounded-xl p-3 shadow-sm flex flex-wrap gap-1">
             <button
               type="button"
               onClick={() => setLeftTab('ai-declare')}
-              className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'ai-declare' ? 'bg-emerald-50 text-[#166534] border border-emerald-200' : 'text-slate-600 hover:bg-slate-50'}`}
+              className={`flex-1 min-w-[120px] py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'ai-declare' ? 'bg-emerald-50 text-[#166534] border border-emerald-200' : 'text-slate-600 hover:bg-slate-50'}`}
             >
               🏷️ Khai báo & AI
             </button>
             <button
               type="button"
               onClick={() => setLeftTab('wholesale-import')}
-              className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'wholesale-import' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'text-slate-600 hover:bg-slate-50'}`}
+              className={`flex-1 min-w-[120px] py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'wholesale-import' ? 'bg-blue-50 text-blue-800 border border-blue-200' : 'text-slate-600 hover:bg-slate-50'}`}
             >
               📦 Nhập Sỉ Đại Lý
             </button>
             <button
               type="button"
               onClick={() => setLeftTab('stock-audit')}
-              className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'stock-audit' ? 'bg-amber-50 text-amber-900 border border-amber-200' : 'text-slate-600 hover:bg-slate-50'}`}
+              className={`flex-1 min-w-[120px] py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'stock-audit' ? 'bg-amber-50 text-amber-900 border border-amber-200' : 'text-slate-600 hover:bg-slate-50'}`}
             >
               ⚖️ Kiểm Lệch Kho
+            </button>
+            <button
+              type="button"
+              onClick={() => setLeftTab('ai-procurement')}
+              className={`flex-1 min-w-[150px] py-2 text-center text-xs font-bold rounded-lg transition cursor-pointer ${leftTab === 'ai-procurement' ? 'bg-purple-50 text-purple-900 border border-purple-200 shadow-xs font-black' : 'text-slate-600 hover:bg-slate-50'}`}
+            >
+              ✨ AI Gợi Ý & Cảnh Báo
             </button>
           </div>
 
@@ -2662,10 +2696,14 @@ export default function GoodsManagement({ onSuccess, initialLeftTab = 'ai-declar
           {leftTab === 'stock-audit' && (
             <InventoryAuditDashboard />
           )}
+
+          {leftTab === 'ai-procurement' && (
+            <AiProcurementAssistant onApplyToImport={handleApplyAiSuggestion} />
+          )}
         </div>
 
         {/* Right Column: Interactive Goods Table with Search (7 Cols) */}
-        {leftTab !== 'stock-audit' && (
+        {leftTab !== 'stock-audit' && leftTab !== 'ai-procurement' && (
           <div className="lg:col-span-7 space-y-4">
           <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm space-y-4">
             
